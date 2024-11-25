@@ -1,0 +1,54 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 100vh;
+}
+
+.card {
+    background-color: rgb(119, 0, 255);
+    width: 400px;
+    height: 300px;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px gray;
+    color: white;
+}
+
+.title {
+    height: 15%;
+}
+
+.header {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.5em;
+    gap: 5px;
+}
+
+.list {
+    height: 70%;
+}
+
+.item {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.5em;
+    gap: 5px;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+}
